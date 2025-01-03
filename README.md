@@ -116,7 +116,7 @@ Navigate to the CodePipeline service and “Create pipeline”.
 
 Name your pipeline and select “New service role”. Leave the rest of the settings at default, then click “Next”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/c19778a0626b967c5c0d6b136c4452eac0b60ada/Images/Screenshot%202025-01-03%20123237.png)
 
 
 For the source stage, select “GitHub (Version 2)” as our source provider.
