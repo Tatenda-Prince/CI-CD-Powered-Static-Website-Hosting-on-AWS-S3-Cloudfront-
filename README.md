@@ -215,7 +215,7 @@ Also, if we click “History” on the left pane of the CodePipeline dashboard, 
 
 1.Go to CloudFront>Create distribution>Choose the Amazon S3 bucket you just created
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/927b509a5b6926a27a07dd0f0749564202a144fc/Images/Screenshot%202025-01-03%20132647.png)
 
 
 
