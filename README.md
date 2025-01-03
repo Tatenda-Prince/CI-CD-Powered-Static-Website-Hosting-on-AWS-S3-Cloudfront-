@@ -123,7 +123,7 @@ For the source stage, select “GitHub (Version 2)” as our source provider.
 
 We can now connect our to our GitHub by selecting “Connect to GitHub”. Name the connection, then “Connect to GitHub”. You’ll need to sign in to your GitHub account to authorize the connection.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/2eef690b3899cda234bdebf25970271bda065b41/Images/Screenshot%202025-01-03%20123709.png)
 
 
 Now that you have are connected to your GitHub, we can continue to Step 4: Configuring CodePipeline.
