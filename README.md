@@ -101,7 +101,7 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
 5. Go to Properties tab and scroll all the way to the bottom to Edit static website hosting section. Enable Static website hosting and choose Host a static website as Hosting type. Enter the Index document name and then click Save changes button.
    
 
-   ![image alt]()
+   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/fa0c28883a5c3601349653f51f47e5482b8be161/Images/Screenshot%202025-01-03%20122413.png)
 
 
 7. Go to Permissions tab>Edit bucket policy. Paste below bucket policy and then click Save changes button. Make sure you update the “Resource”:”arn: your arn/*” with your s3 bucket arn and add /* so that you add all files within your bucket.
