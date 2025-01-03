@@ -107,10 +107,31 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
 7. Go to Permissions tab>Edit bucket policy. Paste below bucket policy and then click Save changes button. Make sure you update the “Resource”:”arn: your arn/*” with your s3 bucket arn and add /* so that you add all files within your bucket.
    
 
-   ![image alt]()
+   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/326125a52136b8c8231f0c2c35cde72f7ee6566d/Images/Screenshot%202025-01-03%20122659.png)
 
 
 # Step 3: Connect GitHub Account to CodePipeline
+
+Navigate to the CodePipeline service and “Create pipeline”.
+
+Name your pipeline and select “New service role”. Leave the rest of the settings at default, then click “Next”.
+
+![image alt]()
+
+
+For the source stage, select “GitHub (Version 2)” as our source provider.
+
+We can now connect our to our GitHub by selecting “Connect to GitHub”. Name the connection, then “Connect to GitHub”. You’ll need to sign in to your GitHub account to authorize the connection.
+
+![image alt]()
+
+
+Now that you have are connected to your GitHub, we can continue to Step 4: Configuring CodePipeline.
+
+
+# Step 4: Configure CodePipeline and deploy CI/CD pipeline
+
+
 
 
 
