@@ -131,6 +131,30 @@ Now that you have are connected to your GitHub, we can continue to Step 4: Confi
 
 # Step 4: Configure CodePipeline and deploy CI/CD pipeline
 
+Proceed by adding the “Repository name” and the “Branch name”. All other settings can remain at default, then click “Next”.
+
+
+![image alt]()
+
+
+We will skip the build stage by clicking “Skip build stage”.
+
+For the “Add deploy stage”, select “S3” for the deploy provider, then the region your S3 bucket was created in, then your Resume Website bucket. Ensure to select “Extract file before deploy”, then click “Next”.
+
+![image alt]()
+
+Review over the pipeline, then proceed to “Create pipeline”. Wait for the pipeline to be created.
+
+
+# Success!
+
+If everything was done correctly, you should see a success message, as shown below.
+
+![image alt]()
+
+
+
+
 
 
 
