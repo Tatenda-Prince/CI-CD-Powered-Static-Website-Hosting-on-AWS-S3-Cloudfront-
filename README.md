@@ -206,7 +206,34 @@ After making changes, we can head back to CodePipeline. If you select your pipel
 
 Also, if we click “History” on the left pane of the CodePipeline dashboard, we can view the “Executing history” and see that it been triggered twice. The initial, when we set up the pipeline and the second time, when we made changed to the “README.md” file.
 
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/b09bc06173b6226a7741ca13bf791a3408e6a001/Images/Screenshot%202025-01-03%20125644.png)
+
+
+# Bonus
+
+# Add CloudFront as a CDN for your static website.
+
+1.Go to CloudFront>Create distribution>Choose the Amazon S3 bucket you just created
+
 ![image alt]()
+
+
+
+2. Keep the default settings and click Create Distribution.
+
+3. Open the CloudFront Distribution you just created and click General tab and copy the Distribution domain name.
+
+![image alt]()
+
+
+4.Paste the address and add your file name as shown below.
+
+
+![image alt]()
+
+
+
+
 
 
 
