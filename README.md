@@ -150,7 +150,40 @@ Review over the pipeline, then proceed to “Create pipeline”. Wait for the pi
 
 If everything was done correctly, you should see a success message, as shown below.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/7a70f59ba5e9c03fe7c80acf2a8a19b0ea5c2780/Images/Screenshot%202025-01-03%20124314.png)
+
+# Congratulations!
+
+You have just created a CI/CD pipeline for your Resume Website, using AWS CodePipeline, GitHub and Amazon S3!
+
+If you head to your S3 bucket that host’s your Resume Website files, you should see the newly updated files, including the “READMe.md” file. This verifies that our CI/CD pipeline was able to make updates aligning with our GitHub repo.
+
+We can now proceed to the final Step: Verifying our CI/CD pipeline!
+
+# Step 5: Verify functionality of CI/CD Pipeline
+
+Before we can fully verify the functionality of the CI/CD pipeline, we first need to verify that we can view our Custom Website from our custom s3 endpoint domain in our browser.
+
+
+1.Go to S3>Your bucket and confirm if you have README.md and storage.html file.
+
+  ![image alt]()
+  
+
+2. Click Properties and scroll to the bottom and copy the Bucket website endpoint address and paste in in the web browser.
+
+  ![image alt]()
+
+
+  Our Custom Website should be displayed, as seen below, showing my sample website
+
+  ![image alt]() 
+
+  
+ 
+
+
+
 
 
 
