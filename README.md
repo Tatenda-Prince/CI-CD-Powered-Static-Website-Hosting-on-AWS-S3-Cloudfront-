@@ -80,7 +80,7 @@ After choosing your files, add a commit description, then click “Commit change
 
 You should now be able to see listed in your repo, your uploaded Resume Website files, as seen below. Now, let’s proceed to Step 2: Emptying your previous S3 bucket!
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/3d24857c199df4758f8cec4aec7366617825e5a9/Images/Screenshot%202025-01-03%20121422.png)
 
 
 Step 2: Create and Configure an S3 Bucket
