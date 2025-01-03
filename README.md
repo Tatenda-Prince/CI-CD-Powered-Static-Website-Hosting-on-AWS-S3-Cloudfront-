@@ -167,7 +167,7 @@ Before we can fully verify the functionality of the CI/CD pipeline, we first nee
 
 1.Go to S3>Your bucket and confirm if you have README.md and storage.html file.
 
-  ![image alt]()
+  ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/154dbf335f32138055654aaf498c777b4c7bd76a/Images/Screenshot%202025-01-03%20124546.png)
   
 
 2. Click Properties and scroll to the bottom and copy the Bucket website endpoint address and paste in in the web browser.
