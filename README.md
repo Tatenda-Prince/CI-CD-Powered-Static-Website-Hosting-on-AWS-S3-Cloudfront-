@@ -167,17 +167,37 @@ Before we can fully verify the functionality of the CI/CD pipeline, we first nee
 
 1.Go to S3>Your bucket and confirm if you have README.md and storage.html file.
 
+
   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/154dbf335f32138055654aaf498c777b4c7bd76a/Images/Screenshot%202025-01-03%20124546.png)
+  
   
 
 2. Click Properties and scroll to the bottom and copy the Bucket website endpoint address and paste in in the web browser.
+   
 
   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/7dafd4cb2ebf3063b23bfc34f25842f77287dcc6/Images/Screenshot%202025-01-03%20124620.png)
+  
 
 
   Our Custom Website should be displayed, as seen below, showing my sample website
+  
 
-  ![image alt]() 
+  ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/3dd8d485397f7a16cd47abcc9d0f516972bdf897/Images/Screenshot%202025-01-03%20124840.png) 
+
+  Great! We are able to view our Custom Website!
+  
+  
+Now, we will make an update to the code in GitHub to verify that the pipeline is triggered and the CI/CD pipeline is functional. This will be as easy as simply making a change to the “README.md” file, since any change to the files should trigger the workflow.
+
+After making changes, we can head back to CodePipeline. If you select your pipeline, you should notice that the pipeline has been triggered just recently.
+
+Also, if we click “History” on the left pane of the CodePipeline dashboard, we can view the “Executing history” and see that it been triggered twice. The initial, when we set up the pipeline and the second time, when we made changed to the “README.md” file.
+
+3. Go to Github repository and edit the file. I added "WE ARE THE BEST CLUB IN LONDON"
+
+Click commit changes.
+
+![images alt]()
 
   
  
