@@ -199,6 +199,14 @@ Click commit changes.
 
 ![images alt]()
 
+
+Now refresh the webpage. Yes, the changes have been made. This is the power of CodePipeline!
+
+
+![image alt]()
+
+
+
   
  
 
