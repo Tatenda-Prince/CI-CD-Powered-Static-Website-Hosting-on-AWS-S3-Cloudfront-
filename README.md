@@ -228,8 +228,15 @@ Also, if we click “History” on the left pane of the CodePipeline dashboard, 
 
 4.Paste the address and add your file name as shown below.
 
+https://d2vt2o429stw25.cloudfront.net/
 
-![image alt]()
+
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/568e32d3f4003004801d1287eceb01614ea9269a/Images/Screenshot%202025-01-03%20132754.png)
+
+
+# Success!
+
+If everything was done correctly, you’ve just successfully created a CI/CD pipeline to automate the deployment of a Custom Website using AWS CodePipeline, GitHub and Amazon S3!
 
 
 
