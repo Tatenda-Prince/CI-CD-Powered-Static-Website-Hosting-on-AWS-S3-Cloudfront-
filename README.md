@@ -66,7 +66,7 @@ Head to your GitHub account and create a new repository by clicking “New”.
 
 Give the repository a name and description. Set it to “Public”, select “Add a README file”, then click “Create repository”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/bc0546d56cea475859d8bcddd314f79d90d66ef1/Images/Screenshot%202025-01-03%20135628.png)
 
 Navigate to “Add file”, then upload your Custom Website files.
 
@@ -83,7 +83,40 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/3d24857c199df4758f8cec4aec7366617825e5a9/Images/Screenshot%202025-01-03%20121422.png)
 
 
-Step 2: Create and Configure an S3 Bucket
+
+# Step 2: Create and Configure an S3 Bucket
+
+1. Go to S3>Create bucket and name your bucket.
+   
+
+   ![image alt]()
+   
+
+3. Uncheck Block all public access and acknowledge. Keep the default settings and click Create button.
+   
+
+   ![image alt]()
+   
+
+5. Go to Properties tab and scroll all the way to the bottom to Edit static website hosting section. Enable Static website hosting and choose Host a static website as Hosting type. Enter the Index document name and then click Save changes button.
+   
+
+   ![image alt]()
+
+
+7. Go to Permissions tab>Edit bucket policy. Paste below bucket policy and then click Save changes button. Make sure you update the “Resource”:”arn: your arn/*” with your s3 bucket arn and add /* so that you add all files within your bucket.
+   
+
+   ![image alt]()
+
+
+# Step 3: Connect GitHub Account to CodePipeline
+
+
+
+   
+
+
 
 
 
