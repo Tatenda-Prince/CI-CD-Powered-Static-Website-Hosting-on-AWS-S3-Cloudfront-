@@ -203,7 +203,7 @@ Click commit changes.
 Now refresh the webpage. Yes, the changes have been made. This is the power of CodePipeline!
 
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/dd6d87e605f12193dd52a014f5900316148ceb55/Images/Screenshot%202025-01-03%20125528.png)
 
 
 
