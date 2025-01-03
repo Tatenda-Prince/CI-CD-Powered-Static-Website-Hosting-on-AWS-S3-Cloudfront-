@@ -189,9 +189,6 @@ Before we can fully verify the functionality of the CI/CD pipeline, we first nee
   
 Now, we will make an update to the code in GitHub to verify that the pipeline is triggered and the CI/CD pipeline is functional. This will be as easy as simply making a change to the “README.md” file, since any change to the files should trigger the workflow.
 
-After making changes, we can head back to CodePipeline. If you select your pipeline, you should notice that the pipeline has been triggered just recently.
-
-Also, if we click “History” on the left pane of the CodePipeline dashboard, we can view the “Executing history” and see that it been triggered twice. The initial, when we set up the pipeline and the second time, when we made changed to the “README.md” file.
 
 3. Go to Github repository and edit the file. I added "WE ARE THE BEST CLUB IN LONDON"
 
@@ -204,6 +201,14 @@ Now refresh the webpage. Yes, the changes have been made. This is the power of C
 
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/dd6d87e605f12193dd52a014f5900316148ceb55/Images/Screenshot%202025-01-03%20125528.png)
+
+After making changes, we can head back to CodePipeline. If you select your pipeline, you should notice that the pipeline has been triggered just recently.
+
+Also, if we click “History” on the left pane of the CodePipeline dashboard, we can view the “Executing history” and see that it been triggered twice. The initial, when we set up the pipeline and the second time, when we made changed to the “README.md” file.
+
+![image alt]()
+
+
 
 
 
