@@ -223,7 +223,7 @@ Also, if we click “History” on the left pane of the CodePipeline dashboard, 
 
 3. Open the CloudFront Distribution you just created and click General tab and copy the Distribution domain name.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/012291d73bfddee1f34bfa65e467188844b9a6bd/Images/Screenshot%202025-01-03%20132736.png)
 
 
 4.Paste the address and add your file name as shown below.
