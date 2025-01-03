@@ -62,7 +62,7 @@ You work as a Developer at Chelsea Football Club! Now you want to update the off
 
 Head to your GitHub account and create a new repository by clicking “New”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/631b94d444bccd7af07500d8b0823eb3b839c038/Images/Screenshot%202025-01-03%20120627.png)
 
 Give the repository a name and description. Set it to “Public”, select “Add a README file”, then click “Create repository”.
 
