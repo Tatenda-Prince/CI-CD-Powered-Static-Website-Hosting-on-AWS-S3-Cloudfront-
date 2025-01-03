@@ -172,7 +172,7 @@ Before we can fully verify the functionality of the CI/CD pipeline, we first nee
 
 2. Click Properties and scroll to the bottom and copy the Bucket website endpoint address and paste in in the web browser.
 
-  ![image alt]()
+  ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/7dafd4cb2ebf3063b23bfc34f25842f77287dcc6/Images/Screenshot%202025-01-03%20124620.png)
 
 
   Our Custom Website should be displayed, as seen below, showing my sample website
