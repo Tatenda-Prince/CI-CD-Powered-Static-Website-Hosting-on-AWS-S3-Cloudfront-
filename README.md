@@ -76,7 +76,7 @@ Note — It’s good practice to create a new branch when making changes to a re
 
 After choosing your files, add a commit description, then click “Commit changes”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/3a582be775dd1ae01efd60feb56ddf2d3794f4c4/Images/Screenshot%202025-01-03%20121357.png)
 
 You should now be able to see listed in your repo, your uploaded Resume Website files, as seen below. Now, let’s proceed to Step 2: Emptying your previous S3 bucket!
 
