@@ -89,7 +89,7 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
 1. Go to S3>Create bucket and name your bucket.
    
 
-   ![image alt]()
+   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/6136cf07df4e355b023ef7a0f786141f95d9a0b0/Images/Screenshot%202025-01-03%20122211.png)
    
 
 3. Uncheck Block all public access and acknowledge. Keep the default settings and click Create button.
