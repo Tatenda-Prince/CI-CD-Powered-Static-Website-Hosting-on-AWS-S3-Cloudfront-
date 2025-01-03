@@ -134,7 +134,7 @@ Now that you have are connected to your GitHub, we can continue to Step 4: Confi
 Proceed by adding the “Repository name” and the “Branch name”. All other settings can remain at default, then click “Next”.
 
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/a645755aafc2a6057f2a7dacf05f810ea3562394/Images/Screenshot%202025-01-03%20123832.png)
 
 
 We will skip the build stage by clicking “Skip build stage”.
