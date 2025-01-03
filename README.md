@@ -197,6 +197,7 @@ Click commit changes.
 ![images alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/a582bf0efdff9c931f673836510502b267b22e06/Images/Screenshot%202025-01-03%20125418.png)
 
 
+
 Now refresh the webpage. Yes, the changes have been made. This is the power of CodePipeline!
 
 
