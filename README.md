@@ -141,7 +141,7 @@ We will skip the build stage by clicking “Skip build stage”.
 
 For the “Add deploy stage”, select “S3” for the deploy provider, then the region your S3 bucket was created in, then your Resume Website bucket. Ensure to select “Extract file before deploy”, then click “Next”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/26f032abe65ba0fcd9dda23074546e7e2da26ddd/Images/Screenshot%202025-01-03%20124200.png)
 
 Review over the pipeline, then proceed to “Create pipeline”. Wait for the pipeline to be created.
 
