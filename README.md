@@ -54,6 +54,38 @@ GitHub Account
 
 5.Add CloudFront as a CDN for your static website
 
+# Use Case
+
+You work as a Developer at Chelsea Football Club! Now you want to update the official club Website to add the new features for everyone else to see. Currently when you make updates, you manually edit your  Website files on your local system, delete the old file versions from S3, then upload the updated changes to the S3 bucket. You’ve now decided to move towards manually automate the deployment of the changes to the website by creating a CI/CD pipeline using AWS CodePipeline and GitHub and Amazon S3.
+
+# Step 1: Create a new repository in GitHub with Resume Website files.
+
+Head to your GitHub account and create a new repository by clicking “New”.
+
+![image alt]()
+
+Give the repository a name and description. Set it to “Public”, select “Add a README file”, then click “Create repository”.
+
+![image alt]()
+
+Navigate to “Add file”, then upload your Custom Website files.
+
+Note — It’s good practice to create a new branch when making changes to a repo e.g. commits, pull requests and merges, however for demonstrative purposes, we’ll work on the main branch.
+
+![image alt]()
+
+After choosing your files, add a commit description, then click “Commit changes”.
+
+![image alt]()
+
+You should now be able to see listed in your repo, your uploaded Resume Website files, as seen below. Now, let’s proceed to Step 2: Emptying your previous S3 bucket!
+
+![image alt]()
+
+
+Step 2: Create and Configure an S3 Bucket
+
+
 
 
 
