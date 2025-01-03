@@ -95,7 +95,7 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
 3. Uncheck Block all public access and acknowledge. Keep the default settings and click Create button.
    
 
-   ![image alt]()
+   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/a06e94ffb5d6c56850ac1aa43fd498e1692e5906/Images/Screenshot%202025-01-03%20122237.png)
    
 
 5. Go to Properties tab and scroll all the way to the bottom to Edit static website hosting section. Enable Static website hosting and choose Host a static website as Hosting type. Enter the Index document name and then click Save changes button.
