@@ -72,7 +72,7 @@ Navigate to “Add file”, then upload your Custom Website files.
 
 Note — It’s good practice to create a new branch when making changes to a repo e.g. commits, pull requests and merges, however for demonstrative purposes, we’ll work on the main branch.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/72b93beec24e8a6586ad45632c8163f4ef13f8da/Images/Screenshot%202025-01-03%20120950.png)
 
 After choosing your files, add a commit description, then click “Commit changes”.
 
