@@ -11,36 +11,36 @@ We will be utilizing AWS CodePipeline, GitHub and Amazon S3! This is going to be
 
 # Background
 
-# Amazon S3
+## Amazon S3
 
 Amazon Simple Storage Service, is a highly scalable and popular cloud storage solution offered by Amazon Web Services (AWS), widely used for storing and retrieving data on the internet.
 
-# Continuous Integration (CI)
+## Continuous Integration (CI)
 
 Continuous Integration is a practice that involves developers making small changes and checks to their code which helps streamline code changes. When practicing CI, new code changes to an app are regularly built, tested, and merged to a shared repository. It provides a solution to the problem of having too many branches of an app in development at once that might conflict with each other, thereby increasing time for developers to make changes and contribute to improved software.
 
-# Continuous Deployment/Delivery (CD)
+## Continuous Deployment/Delivery (CD)
 
 Continuous Delivery is the automated delivery of completed code to environments for example, testing or development. CD provides an automated and consistent way for code to be delivered to these environments.
 
 Continuous Deployment is the next step of Continuous Delivery. Every change from a repository that passes the automated tests is automatically placed in production, where it is usable by customers. It improved the issues of overloading operations teams with manual processes that slow down app delivery to customers.
 
 
-# AWS CodePipeline (CodePipeline)
+## AWS CodePipeline (CodePipeline)
 
 CodePipeline is a fully managed continuous delivery service on AWS that you can use to automate CI/CD pipelines for fast and reliable application and infrastructure updates.
 
-# GitHub
+## GitHub
 
 GitHub, as the name suggest, is a Hub, a central site that offers developers a cloud-based service to store and manage code as well as track and control changes to code. GitHub makes it possible to leverage Git in the cloud at a central site.
 
 # Prerequisites
 
-AWS account and IAM user (Free Tier)
+1.AWS account and IAM user (Free Tier)
 
-Custom Website files (HTML, CSS)
+2.Custom Website files (HTML, CSS)
 
-GitHub Account
+3.GitHub Account
 
 # Objectives
 
@@ -60,7 +60,7 @@ You work as a Developer at Chelsea Football Club! Now you want to update the off
 
 # Step 1: Create a new repository in GitHub with Resume Website files.
 
-Head to your GitHub account and create a new repository by clicking “New”.
+## Head to your GitHub account and create a new repository by clicking “New”.
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/631b94d444bccd7af07500d8b0823eb3b839c038/Images/Screenshot%202025-01-03%20120627.png)
 
@@ -86,28 +86,28 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
 
 # Step 2: Create and Configure an S3 Bucket
 
-1. Go to S3>Create bucket and name your bucket.
+1. Go to S3 Create bucket and name your bucket.
    
 
-   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/6136cf07df4e355b023ef7a0f786141f95d9a0b0/Images/Screenshot%202025-01-03%20122211.png)
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/6136cf07df4e355b023ef7a0f786141f95d9a0b0/Images/Screenshot%202025-01-03%20122211.png)
    
 
 3. Uncheck Block all public access and acknowledge. Keep the default settings and click Create button.
    
 
-   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/a06e94ffb5d6c56850ac1aa43fd498e1692e5906/Images/Screenshot%202025-01-03%20122237.png)
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/a06e94ffb5d6c56850ac1aa43fd498e1692e5906/Images/Screenshot%202025-01-03%20122237.png)
    
 
 5. Go to Properties tab and scroll all the way to the bottom to Edit static website hosting section. Enable Static website hosting and choose Host a static website as Hosting type. Enter the Index document name and then click Save changes button.
    
 
-   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/fa0c28883a5c3601349653f51f47e5482b8be161/Images/Screenshot%202025-01-03%20122413.png)
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/fa0c28883a5c3601349653f51f47e5482b8be161/Images/Screenshot%202025-01-03%20122413.png)
 
 
 7. Go to Permissions tab>Edit bucket policy. Paste below bucket policy and then click Save changes button. Make sure you update the “Resource”:”arn: your arn/*” with your s3 bucket arn and add /* so that you add all files within your bucket.
    
 
-   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/326125a52136b8c8231f0c2c35cde72f7ee6566d/Images/Screenshot%202025-01-03%20122659.png)
+ ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/326125a52136b8c8231f0c2c35cde72f7ee6566d/Images/Screenshot%202025-01-03%20122659.png)
 
 
 # Step 3: Connect GitHub Account to CodePipeline
@@ -146,11 +146,12 @@ For the “Add deploy stage”, select “S3” for the deploy provider, then th
 Review over the pipeline, then proceed to “Create pipeline”. Wait for the pipeline to be created.
 
 
-# Success!
+## Success!
 
 If everything was done correctly, you should see a success message, as shown below.
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/7a70f59ba5e9c03fe7c80acf2a8a19b0ea5c2780/Images/Screenshot%202025-01-03%20124314.png)
+
 
 # Congratulations!
 
@@ -165,21 +166,21 @@ We can now proceed to the final Step: Verifying our CI/CD pipeline!
 Before we can fully verify the functionality of the CI/CD pipeline, we first need to verify that we can view our Custom Website from our custom s3 endpoint domain in our browser.
 
 
-1.Go to S3>Your bucket and confirm if you have README.md and storage.html file.
+1.Go to S3Your bucket and confirm if you have README.md and storage.html file.
 
 
-  ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/154dbf335f32138055654aaf498c777b4c7bd76a/Images/Screenshot%202025-01-03%20124546.png)
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/154dbf335f32138055654aaf498c777b4c7bd76a/Images/Screenshot%202025-01-03%20124546.png)
   
   
 
 2. Click Properties and scroll to the bottom and copy the Bucket website endpoint address and paste in in the web browser.
    
 
-  ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/7dafd4cb2ebf3063b23bfc34f25842f77287dcc6/Images/Screenshot%202025-01-03%20124620.png)
+ ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/7dafd4cb2ebf3063b23bfc34f25842f77287dcc6/Images/Screenshot%202025-01-03%20124620.png)
   
 
 
-  Our Custom Website should be displayed, as seen below, showing my sample website
+  ## Our Custom Website should be displayed, as seen below, showing my sample website
   
 
   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/3dd8d485397f7a16cd47abcc9d0f516972bdf897/Images/Screenshot%202025-01-03%20124840.png) 
@@ -190,7 +191,7 @@ Before we can fully verify the functionality of the CI/CD pipeline, we first nee
 Now, we will make an update to the code in GitHub to verify that the pipeline is triggered and the CI/CD pipeline is functional. This will be as easy as simply making a change to the “README.md” file, since any change to the files should trigger the workflow.
 
 
-3. Go to Github repository and edit the file. I added "WE ARE THE BEST CLUB IN LONDON"
+3.Go to Github repository and edit the file. I added "WE ARE THE BEST CLUB IN LONDON"
 
 Click commit changes.
 
@@ -212,9 +213,10 @@ Also, if we click “History” on the left pane of the CodePipeline dashboard, 
 
 # Bonus
 
-# Add CloudFront as a CDN for your static website.
+## Add CloudFront as a CDN for your static website.
 
 1.Go to CloudFront>Create distribution>Choose the Amazon S3 bucket you just created
+
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/927b509a5b6926a27a07dd0f0749564202a144fc/Images/Screenshot%202025-01-03%20132647.png)
 
@@ -229,8 +231,9 @@ Also, if we click “History” on the left pane of the CodePipeline dashboard, 
 
 4.Paste the address and add your file name as shown below.
 
+```link
 https://d2vt2o429stw25.cloudfront.net/
-
+```
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/568e32d3f4003004801d1287eceb01614ea9269a/Images/Screenshot%202025-01-03%20132754.png)
 
