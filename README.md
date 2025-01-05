@@ -92,19 +92,19 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/6136cf07df4e355b023ef7a0f786141f95d9a0b0/Images/Screenshot%202025-01-03%20122211.png)
    
 
-3. Uncheck Block all public access and acknowledge. Keep the default settings and click Create button.
+2. Uncheck Block all public access and acknowledge. Keep the default settings and click Create button.
    
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/a06e94ffb5d6c56850ac1aa43fd498e1692e5906/Images/Screenshot%202025-01-03%20122237.png)
    
 
-5. Go to Properties tab and scroll all the way to the bottom to Edit static website hosting section. Enable Static website hosting and choose Host a static website as Hosting type. Enter the Index document name and then click Save changes button.
+3. Go to Properties tab and scroll all the way to the bottom to Edit static website hosting section. Enable Static website hosting and choose Host a static website as Hosting type. Enter the Index document name and then click Save changes button.
    
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/fa0c28883a5c3601349653f51f47e5482b8be161/Images/Screenshot%202025-01-03%20122413.png)
 
 
-7. Go to Permissions tab>Edit bucket policy. Paste below bucket policy and then click Save changes button. Make sure you update the “Resource”:”arn: your arn/*” with your s3 bucket arn and add /* so that you add all files within your bucket.
+4. Go to Permissions tab>Edit bucket policy. Paste below bucket policy and then click Save changes button. Make sure you update the “Resource”:”arn: your arn/*” with your s3 bucket arn and add /* so that you add all files within your bucket.
    
 
  ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/326125a52136b8c8231f0c2c35cde72f7ee6566d/Images/Screenshot%202025-01-03%20122659.png)
