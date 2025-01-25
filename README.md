@@ -155,7 +155,7 @@ If everything was done correctly, you should see a success message, as shown bel
 
 # Congratulations!
 
-You have just created a CI/CD pipeline for your Resume Website, using AWS CodePipeline, GitHub and Amazon S3!
+You have just created a CI/CD pipeline for your  Website, using AWS CodePipeline, GitHub and Amazon S3!
 
 If you head to your S3 bucket that host’s your Resume Website files, you should see the newly updated files, including the “READMe.md” file. This verifies that our CI/CD pipeline was able to make updates aligning with our GitHub repo.
 
