@@ -9,7 +9,7 @@
 
 # Intro 
 
-Today we will take this further to incorporate DevOps practices as I show you how we can incorporate a CI/CD pipeline to automate the deployment of our Resume Website whenever we make changes to the code.
+Today we will take this further to incorporate DevOps practices as I show you how we can incorporate a CI/CD pipeline to automate the deployment of our sports Website whenever we make changes to the code.
 
 We will be utilizing AWS CodePipeline, GitHub and Amazon S3! This is going to be a fun one so let’s get to it!
 
