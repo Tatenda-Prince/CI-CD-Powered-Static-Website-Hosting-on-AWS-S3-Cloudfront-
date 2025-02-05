@@ -1,7 +1,11 @@
 # Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront
+
+
 "A Pipeline To The Cloud"
 
-![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/6e9a8346108dca161a5456b5d3fbb7018e20b340/Images/Screenshot%202025-01-03%20120312.png) 
+# Technical Architecture
+
+![image alt] 
 
 # Intro 
 
