@@ -7,13 +7,13 @@
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/95709a313974b3663edf51094306539144944efd/Images/Screenshot%202025-02-05%20213401.png)
 
-# Intro 
+## Intro 
 
 Today we will take this further to incorporate DevOps practices as I show you how we can incorporate a CI/CD pipeline to automate the deployment of our sports Website whenever we make changes to the code.
 
 We will be utilizing AWS CodePipeline, GitHub and Amazon S3! This is going to be a fun one so let’s get to it!
 
-# Background
+## Background
 
 ## Amazon S3
 
@@ -38,7 +38,7 @@ CodePipeline is a fully managed continuous delivery service on AWS that you can 
 
 GitHub, as the name suggest, is a Hub, a central site that offers developers a cloud-based service to store and manage code as well as track and control changes to code. GitHub makes it possible to leverage Git in the cloud at a central site.
 
-# Prerequisites
+## Prerequisites
 
 1.AWS account and IAM user (Free Tier)
 
@@ -46,7 +46,7 @@ GitHub, as the name suggest, is a Hub, a central site that offers developers a c
 
 3.GitHub Account
 
-# Objectives
+## Objectives
 
 1.Create a GitHub repository.
 
@@ -58,11 +58,11 @@ GitHub, as the name suggest, is a Hub, a central site that offers developers a c
 
 5.Add CloudFront as a CDN for your static website
 
-# Use Case
+## Use Case
 
 You work as a Developer at Chelsea Football Club! Now you want to update the official club Website to add the new features for everyone else to see. Currently when you make updates, you manually edit your  Website files on your local system, delete the old file versions from S3, then upload the updated changes to the S3 bucket. You’ve now decided to move towards manually automate the deployment of the changes to the website by creating a CI/CD pipeline using AWS CodePipeline and GitHub and Amazon S3.
 
-# Step 1: Create a new repository in GitHub with Resume Website files.
+## Step 1: Create a new repository in GitHub with Resume Website files.
 
 Head to your GitHub account and create a new repository by clicking “New”.
 
@@ -88,7 +88,7 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
 
 
 
-# Step 2: Create and Configure an S3 Bucket
+## Step 2: Create and Configure an S3 Bucket
 
 1. Go to S3 Create bucket and name your bucket.
    
@@ -114,7 +114,7 @@ You should now be able to see listed in your repo, your uploaded Resume Website 
  ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/326125a52136b8c8231f0c2c35cde72f7ee6566d/Images/Screenshot%202025-01-03%20122659.png)
 
 
-# Step 3: Connect GitHub Account to CodePipeline
+## Step 3: Connect GitHub Account to CodePipeline
 
 Navigate to the CodePipeline service and “Create pipeline”.
 
@@ -133,7 +133,7 @@ We can now connect our to our GitHub by selecting “Connect to GitHub”. Name 
 Now that you have are connected to your GitHub, we can continue to Step 4: Configuring CodePipeline.
 
 
-# Step 4: Configure CodePipeline and deploy CI/CD pipeline
+## Step 4: Configure CodePipeline and deploy CI/CD pipeline
 
 Proceed by adding the “Repository name” and the “Branch name”. All other settings can remain at default, then click “Next”.
 
@@ -157,7 +157,7 @@ If everything was done correctly, you should see a success message, as shown bel
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/7a70f59ba5e9c03fe7c80acf2a8a19b0ea5c2780/Images/Screenshot%202025-01-03%20124314.png)
 
 
-# Congratulations!
+## Congratulations!
 
 You have just created a CI/CD pipeline for your  Website, using AWS CodePipeline, GitHub and Amazon S3!
 
@@ -165,7 +165,7 @@ If you head to your S3 bucket that host’s your Resume Website files, you shoul
 
 We can now proceed to the final Step: Verifying our CI/CD pipeline!
 
-# Step 5: Verify functionality of CI/CD Pipeline
+## Step 5: Verify functionality of CI/CD Pipeline
 
 Before we can fully verify the functionality of the CI/CD pipeline, we first need to verify that we can view our Custom Website from our custom s3 endpoint domain in our browser.
 
@@ -215,7 +215,7 @@ Also, if we click “History” on the left pane of the CodePipeline dashboard, 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/b09bc06173b6226a7741ca13bf791a3408e6a001/Images/Screenshot%202025-01-03%20125644.png)
 
 
-# Bonus
+## Bonus
 
 ## Add CloudFront as a CDN for your static website.
 
