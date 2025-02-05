@@ -64,7 +64,7 @@ You work as a Developer at Chelsea Football Club! Now you want to update the off
 
 # Step 1: Create a new repository in GitHub with Resume Website files.
 
-## Head to your GitHub account and create a new repository by clicking “New”.
+Head to your GitHub account and create a new repository by clicking “New”.
 
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/631b94d444bccd7af07500d8b0823eb3b839c038/Images/Screenshot%202025-01-03%20120627.png)
 
