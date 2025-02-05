@@ -5,7 +5,7 @@
 
 # Technical Architecture
 
-![image alt] 
+![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/95709a313974b3663edf51094306539144944efd/Images/Screenshot%202025-02-05%20213401.png)
 
 # Intro 
 
