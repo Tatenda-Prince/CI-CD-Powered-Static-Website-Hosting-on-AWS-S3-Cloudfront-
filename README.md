@@ -230,7 +230,7 @@ git push origin main
 
 ```
 
-![images alt]()
+![images alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/ce7ef4204c70528631486a3c620dc5950268eb29/Images/Screenshot%202025-02-15%20131033.png)
 
 
 
