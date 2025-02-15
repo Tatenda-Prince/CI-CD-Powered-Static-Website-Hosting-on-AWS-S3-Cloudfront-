@@ -202,6 +202,7 @@ If you head to your S3 bucket that host’s your Resume Website files, you shoul
 
 
   ## Our Custom Website should be displayed, as seen below, showing my sample website
+  
   ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/3dd8d485397f7a16cd47abcc9d0f516972bdf897/Images/Screenshot%202025-01-03%20124840.png) 
 
   Great! We are able to view our Custom Website!
@@ -234,11 +235,14 @@ git push origin main
 
 
 5.6.Now refresh the webpage. Yes, the changes have been made. This is the power of CodePipeline!
+
+
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/dd6d87e605f12193dd52a014f5900316148ceb55/Images/Screenshot%202025-01-03%20125528.png)
 
 
 5.7.After making changes, we can head back to CodePipeline. If you select your pipeline, you should notice that the pipeline has been triggered just recently.
 Also, if we click “History” on the left pane of the CodePipeline dashboard, we can view the “Executing history” and see that it been triggered twice. The initial, when we set up the pipeline and the second time, when we made changed to the “README.md” file.
+
 ![image alt](https://github.com/Tatenda-Prince/Hosting-A-Static-Website-With-CI-CD-Pipeline-GitHub-And-S3-Cloudfront/blob/b09bc06173b6226a7741ca13bf791a3408e6a001/Images/Screenshot%202025-01-03%20125644.png)
 
 
